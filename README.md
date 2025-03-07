@@ -9,7 +9,9 @@ This repository contains two implementations of an **Agentic Retrieval-Augmented
 Two approaches are implemented:
 
 - **COOPERATE Mode** 🏗️ – Multiple LLMs act as experts, providing critiques before a final judge model makes a decision.
+![ds_14b_agentic_cooperative-2025-03-06-143340](https://github.com/user-attachments/assets/0ac99964-9aaf-4fb3-a847-2606a2afc2ba)
 - **COMPETE Mode** ⚔️ – Alternative LLMs generate conflicting answers, and the main LLM's response stability determines if it abstains.
+- ![Untitled diagram-2025-03-06-142926](https://github.com/user-attachments/assets/f53bba3f-6e88-42b1-814a-b0f6082458ee)
 
 Both modes enhance **plagiarism detection, fact verification, and knowledge reliability assessment**.
 
